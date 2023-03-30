@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundPosition: {
+        '1260/66': '1260% 66%',
+      }
+    },
+    screens: {
+      'md': '940px',
+    }
   },
   plugins: [],
 }
